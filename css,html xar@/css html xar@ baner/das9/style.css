@@ -1,0 +1,30 @@
+.a {
+  width: 300px;
+  height: 300px;
+  background: chartreuse;
+  transition: 2s ease;
+}
+.a:hover {
+  transform: scale(1.5);
+  background: crimson;
+}
+.q {
+  width: 400px;
+  height: 400px;
+  background: black;
+  margin: 50px;
+  transition: 2s ease;
+}
+.q:hover {
+  transform: translateX(600px);
+}
+.c {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  margin: 100px;
+  transition: 4s ease-in;
+}
+.c:hover {
+  transform: scaleY(4);
+}

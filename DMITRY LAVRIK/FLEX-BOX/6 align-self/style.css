@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  background-color: red;
+  height: 200px;
+  align-items: flex-start;
+  
+}
+.item {
+  background-color: pink;
+  padding: 20px;
+}
+.item-2 {
+  align-self: flex-end;
+}
+.item-3 {
+  align-self: center;
+}
+.item-5 {
+  align-self: flex-end;
+}

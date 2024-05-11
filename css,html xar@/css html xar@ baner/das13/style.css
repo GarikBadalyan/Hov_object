@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.a {
+  max-width: 1300px;
+}
+.a > .b {
+  float: left;
+  margin-right: 8px;
+}
+.a > .b > img {
+  width: 100%; /*  sa nra hamar e vor nkari responsivutyun@ apahovenq*/
+}
+.kk {
+  clear: both;
+}
+.ww > .rr {
+  float: left;
+}
+.hh {
+  clear: both;
+}

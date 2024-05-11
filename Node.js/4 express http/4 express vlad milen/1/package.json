@@ -1,0 +1,21 @@
+{
+  "name": "Nar111",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "serve": "nodemon script.js",
+    "start": "node script.js"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Garik Badalyan",
+  "license": "ISC"
+}

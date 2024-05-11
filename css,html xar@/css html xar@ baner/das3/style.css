@@ -1,0 +1,28 @@
+.a {
+  color: aquamarine;
+  font-size: 30px;
+}
+.a:hover {
+  color: red;
+  background: skyblue;
+}
+.child:nth-child(3) {
+  color: springgreen;
+  font-size: 30px;
+}
+.t::first-letter {
+  font-size: 40px;
+  color: red;
+}
+.t::before {
+  content: "Barev ";
+}
+.t::after {
+  content: " hajox ";
+}
+form input[data-anun="poxos"] {
+  background: red;
+}
+form input[data-anun="petros"] {
+  background: rgb(119, 0, 255);
+}

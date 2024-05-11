@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: paleturquoise;
+}
+.app-wrap {
+  background: rgba(124, 223, 11, 0.2);
+  padding: 15px;
+}
+
+.wraper {
+  background: rgba(124, 223, 11, 0.2);
+  max-width: 100%;
+  max-height: 800px;
+  margin: 5px auto;
+  height: 100%;
+  overflow: hidden;
+}
+.general-medications {
+  margin: 5px;
+
+  max-width: 100%;
+  min-height: 560px;
+  background: rgba(124, 223, 11, 0.2);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  background-color: rgb(92, 92, 233);
+}
+
+header input {
+  max-width: 280px;
+  padding: 10px 45px;
+  border-radius: 40px;
+  outline: none;
+  font-size: 21px;
+  border-bottom: 4px solid rgb(63, 245, 7);
+  font-weight: 300;
+}
+
+.wraper .general-medications {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.location {
+  background: url("https://www.meme-arsenal.com/memes/bcd77c416da74b6dc56c6fd23140aed5.jpg");
+  background-repeat: no-repeat;
+  margin: 3px 20px;
+  text-align: center;
+  flex-basis: 380px;
+}
+.temp > span {
+  font-size: 50px;
+}

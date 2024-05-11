@@ -1,0 +1,12 @@
+.a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.a .b {
+  margin: 15px;
+  background: cyan;
+  min-height: 50px;
+  width: calc(100% / 4 - 30px);
+  text-align: center;
+}

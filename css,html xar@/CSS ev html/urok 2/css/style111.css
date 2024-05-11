@@ -1,0 +1,19 @@
+body{
+    color:red;
+    font-size: 22px;
+}
+p{
+    color: rgb(1, 1, 3);
+}
+ul >li{
+    color: chartreuse;
+}
+body ul li{
+    color: rgb(245, 17, 188);
+}
+html body ul li{
+    color: rgba(14, 253, 6, 0.664);
+}
+html body ul li a{
+    color: yellow;
+}

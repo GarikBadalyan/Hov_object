@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  padding: 30px;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.row > div {
+  color: aliceblue;
+  padding: 10px;
+}
+.row > div {
+  background: blue;
+}
+.row > div:nth-child(odd) {
+  background: red;
+}
+.row1 {
+  padding: 30px;
+  margin-top: 50px;
+}
+.row1 > div {
+  display: inline-block;
+  color: aliceblue;
+  padding: 10px;
+}
+.row1 > div {
+  background: blue;
+}
+.row1 > div:nth-child(odd) {
+  background: red;
+}
+.a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

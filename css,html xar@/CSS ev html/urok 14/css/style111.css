@@ -1,0 +1,34 @@
+/**{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}*/
+.a1{
+    max-width: 800px;
+}
+.a1 > .a2{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.a1 > .a2 > img {
+    width: 100%;
+}
+.q1 > .q2 {
+    float: left;
+}
+.q1 > .q2> img {
+    padding: 15px;
+}
+#w2{
+    font-weight: bold;
+    
+}
+#w2{
+    clear: both;
+}
+.garik{
+    max-width: 500px;
+    max-height: 500px;
+    background: red;
+}

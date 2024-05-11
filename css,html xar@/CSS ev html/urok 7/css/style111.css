@@ -1,0 +1,12 @@
+.a1{
+    width: 500px;
+    height: 500px;
+    background: black;
+    padding: 10px;
+    overflow: scroll;
+}
+.a2{
+    width: 800px;
+    height: 800px;
+    background: red;
+}

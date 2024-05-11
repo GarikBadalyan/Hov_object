@@ -1,0 +1,42 @@
+h1{
+    color: blue;
+    font-size: 30px;
+    font-style: italic;
+    background: yellow;
+}
+p{
+    color: violet;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p>span{
+    color: red;
+    font-size: 30px;
+    background: black;
+}
+.a1{
+    color: blue;
+    background: chartreuse;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a2{
+    color: red;
+    background: saddlebrown;
+    font-size: 20px;
+    font-weight: 800;
+}
+.a3{
+    color: black;
+    background: rgb(15, 230, 8);
+    font-size: 20px;
+    font-weight: 800;
+}
+#z1{
+    color: rgb(15, 230, 8);
+    font-weight: bold;
+    font-size: 22px;
+    background: rgb(240, 10, 136);
+}

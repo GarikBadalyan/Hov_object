@@ -1,0 +1,13 @@
+.a {
+  width: 400px;
+  height: 400px;
+  background: skyblue;
+  padding: 15px;
+  overflow: hidden;
+  overflow: scroll;
+}
+.b {
+  width: 600px;
+  height: 600px;
+  background: red;
+}

@@ -1,0 +1,25 @@
+.a {
+  background: black;
+  font-size: 20px;
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+@media screen and (max-width: 700px) {
+  .a {
+    background: red;
+    font-size: 40px;
+  }
+}
+.d1 {
+  display: none;
+  background: salmon;
+  font-size: 25px;
+  font-weight: bold;
+}
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .d1 {
+    display: block;
+    background: chartreuse;
+  }
+}

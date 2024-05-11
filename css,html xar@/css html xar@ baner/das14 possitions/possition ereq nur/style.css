@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent {
+  max-width: 600px;
+  border: 3px black solid;
+  margin: 10% auto;
+  padding: 2px;
+  position: relative;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.parent > .nkar {
+  width: 100%;
+}
+
+.parent > .nkar > img {
+  width: 100%;
+}
+.info > h4 {
+  letter-spacing: 10px;
+  color: yellow;
+}
+.info > p {
+  font-size: 25px;
+  color: rgb(248, 3, 3);
+}
+.parent > .info > button {
+  background: none;
+  padding: 10px 35px;
+  border: 2px beige solid;
+  transition: 1s;
+}
+.parent > .info {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: rgb(15, 170, 231, 0.3);
+  transition: 1s;
+}
+.parent:hover .info {
+  opacity: 1;
+}
+.parent > .info > button:hover {
+  background: rgb(119, 144, 93);
+  color: red;
+  font-size: 28px;
+}

@@ -1,0 +1,12 @@
+.wrapper {
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+  border: 3px solid blue;
+}
+.col {
+  min-height: 400px;
+  box-sizing: border-box;
+  text-align: center;
+  background: chartreuse;
+}

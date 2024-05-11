@@ -1,0 +1,23 @@
+.child{
+    display: inline-block;
+    border: 5px solid red;
+    width: 200px;
+    height: 200px;
+}
+.parent{
+    display: flex;
+}
+.a1{
+    display: flex;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    margin: 200px 20px 40px 200px;
+    padding: 40px;
+}
+.b1{
+    padding: 20px;
+    border: 2px solid red;
+    margin: 20px;
+}

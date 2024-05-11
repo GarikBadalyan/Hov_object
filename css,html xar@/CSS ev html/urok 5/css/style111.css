@@ -1,0 +1,19 @@
+p{
+    display: inline;
+}
+.a1{
+    color: rgb(51, 247, 12);
+    font-size: 25px;
+}
+.a2{
+    color: red;
+    font-size: 25px;
+}
+.a3{
+  color: blue; 
+  font-size: 25px;
+}
+.a4{
+    color: rgb(224, 240, 8);
+    font-size: 25px;
+}

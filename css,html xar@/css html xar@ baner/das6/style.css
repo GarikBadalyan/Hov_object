@@ -1,0 +1,24 @@
+.child {
+  display: inline-block;
+}
+.child {
+  width: 150px;
+  height: 150px;
+  border: 2px black solid;
+  margin: 4px;
+}
+.parent {
+  display: flex;
+}
+.s1 {
+  width: 80%;
+  height: 200px;
+  background: sandybrown;
+  border: black 4px solid;
+  margin: 25px;
+  padding: 100px;
+}
+.a1 {
+  border: red 2px solid;
+  padding: 50px;
+}

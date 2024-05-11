@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  background-color: red;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: space-between;
+}
+.item {
+  background-color: pink;
+  padding: 20px;
+}
+.item-1 {
+  width: 30%;
+}
+.item-2 {
+  width: 60%;
+}
+.item-3 {
+  width: 45%;
+}
+.item-4 {
+  width: 48%;
+}
+.item-5 {
+  width: 60%;
+}

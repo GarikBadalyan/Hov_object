@@ -1,0 +1,21 @@
+.a {
+  color: red;
+  opacity: 0.4;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 2s ease;
+}
+.a:hover {
+  opacity: 1;
+  color: blue;
+}
+.b {
+  width: 300px;
+  height: 300px;
+  background: blue;
+  opacity: 0.3;
+  transition: 1.3s ease;
+}
+.b:hover {
+  opacity: 1;
+}

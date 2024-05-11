@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row .col {
+  text-align: center;
+  float: left;
+  margin: 15px;
+  padding: 10px;
+  min-height: 100px;
+  width: calc(100% / 3 - 30px);
+  background: chartreuse;
+}

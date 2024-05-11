@@ -1,0 +1,26 @@
+.b {
+  background: violet;
+  margin: 10px;
+  flex-grow: 0;
+  min-height: 100px;
+  text-align: center;
+  flex-basis: 200px;
+}
+.b_3 {
+  background: violet;
+  margin: 10px;
+  flex-grow: 0;
+  min-height: 100px;
+  text-align: center;
+  flex-basis: 200px;
+}
+.a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media screen and (max-width: 500px) {
+  .b_3 {
+    order: -1;
+  }
+}

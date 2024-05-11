@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 30px;
+}
+.row .col {
+  text-align: center;
+  background: cyan;
+  min-height: 50px;
+}
+@media screen and (max-width: 992px) {
+  .row .col {
+    grid-column: span 6;
+  }
+}

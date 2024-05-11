@@ -1,0 +1,443 @@
+.a1{
+    width: 400px;
+    height: 400px;
+    background:url('https://data.pixiz.com/output/user/frame/preview/400x400/9/3/6/9/3409639_16b6e.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 5px solid red;
+    background-position: 50% 50%;
+}
+p{
+    
+    text-transform: uppercase;
+}
+.q1{
+    width: 100%;
+    height: 500px;
+    background:url('https://cdn.pixabay.com/photo/2018/09/07/11/32/photo-manipulation-3660491_960_720.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.w1{
+    width: 300px;
+    height: 300px;
+    border: 15px solid green;
+    background:url('../nkar/mari.jpg');
+    background-size: cover;
+    border-radius: 40px;
+    margin: 30px;
+    padding: 20px;
+
+}
+.aa11{
+    width: 800px;
+    height: 500px;
+    border: 8px solid red;
+}
+.qq1{
+    width: 300px;
+    height: 200px;
+    background: blue;
+    margin: 30px;
+}
+.z1{
+    display: inline;
+}
+.z2{
+    display: inline; 
+}
+span{
+    display: block;
+}
+.child{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border: 4px solid red;
+    margin: 10px;
+    
+}
+.child:nth-child(4){
+    color: cyan;
+    font-size: 50px;
+}
+.kkk1{
+    background: rgb(170, 56, 56);
+    font-size: 80px;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 10px 10px 10px  chartreuse;
+    
+}
+.kkk1:before{
+    content:  ' IMHAMOV ' ;
+}
+.kkk1::after{
+    content: ' QAXCRBALES ';
+}
+.parent{
+    display: flex;
+}
+.aaa{
+background: red;
+margin: 30px;
+padding: 59px;
+border: 5px solid blue;
+
+}
+.eee{
+    background: cyan;
+    margin: 30px;
+    padding: 50px;
+    border: 5px solid blue;
+
+}
+.a5{
+    width: 200px;
+    height: 200px;
+    background: black;
+    margin: 40px;
+    padding: 70px;
+    border: 15px solid blue;
+}
+.a6{
+    width: 350px;
+    height: 350px;
+    background: red;
+    
+}
+ .t1{
+    width: 200px;
+    height: 200px;
+    background: rgb(47, 238, 9);
+    padding: 100px;
+    margin: 100px;
+
+} 
+.as1{
+    font-size: 25px;
+    font-weight: bold;
+    color: green;letter-spacing: 7px;
+    opacity: 0.4;
+}
+.as1:hover{
+    opacity: 1;
+}
+.ssdd{
+    width: 800px;
+    height: 500px;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSl7lpSPApCHrr8RVxWEuoEptdNDwWrtjDD1w&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    border: 6px solid red;
+    margin-left: 300px;
+    margin-top: 100px;
+    transition: 1.3s;
+}
+.ssdd:hover{
+     opacity: 0.6;
+}
+.aww{
+    width: 600px;
+    height: 800px;
+    background:url('https://c7.hotpng.com/preview/906/268/968/apple-color-emoji-apple-color-emoji-computer-icons-fruit-emoji.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    margin-left:  250px;
+    margin-top: 100px;
+    
+}
+.kkk{
+    text-align: center;
+    transition: 1.5s ease;
+}
+.kkk:hover{
+    color: red;
+    font-size: 40px;
+}
+.fg1{
+    width: 300px;
+    height: 300px;
+    background: rgb(5, 65, 245);
+    margin: 100px;
+    transition: 2s ease;
+}
+.fg1:hover{
+    
+    transform: scale(1.6);
+    background: salmon;
+}
+.ttt{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: blueviolet;
+    transition: 1s ease;
+}
+.ttt:hover{
+    
+    transform:translate(600px);
+}
+.uul{
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    transition: 1.5s ease;
+    margin: 100px;
+}
+.uul:hover{
+    transform: rotate(600deg);
+    
+}
+.ccv{
+    width: 400px;
+    height: 400px;
+    background: cyan;
+    transition: 2.5s ease;
+    margin: 100px;
+}
+.ccv:hover{
+transform:rotateX(300deg);
+}
+.ddff{
+    
+    font-weight: bold;
+   /* animation: tarer 2s infinite alternate;*/
+}
+@keyframes tarer{
+    from{
+       font-size: 22px;
+       color: red;
+    }
+    to{
+        color: yellow;
+    }
+}
+.ff11{
+    width: 400px;
+    height: 400px;
+    background: yellowgreen;
+    border-radius: 50%;
+    margin-top: 800px;
+    animation: klor 1.5s infinite alternate;
+    
+}
+@keyframes klor{
+    0%{
+        background: rgb(5, 65, 245);
+        margin-right: 20px;
+        transform: rotate(36deg);
+    }
+    10%{
+        background: rgb(5, 245, 5);
+        margin-right: 100px;
+        transform: rotate(72deg);
+    }
+    20%{
+        background: rgb(245, 5, 5);
+        margin-right: 180px;
+        transform: rotate(108deg);
+    }
+    30%{
+        background: rgb(229, 245, 5);
+        margin-right: 260px;
+        transform: rotate(144deg);
+    }
+    40%{
+        background: rgb(245, 5, 145);
+        margin-right: 340px;
+        transform: rotate(180deg);
+    }
+    50%{
+        background: rgb(5, 177, 245);
+        margin-right: 420px;
+        transform: rotate(216deg);
+    }
+    60%{
+        transform: rotate(252deg);
+        margin-left: 500px;
+        background: mediumorchid;
+    }
+    70%{
+        transform: rotate(288deg);
+        margin-left: 580px;
+        background: yellow;
+    }
+    80%{
+        transform: rotate(324deg);
+        margin-left: 660px;
+        background: steelblue;
+    }
+    90%{
+        transform: rotate(360deg);
+        margin-left: 740px;
+        background: orange;
+    }
+    100%{
+        transform: rotate(36deg);
+        margin-left: 880px;
+        background: paleturquoise;
+    }
+}
+.aassdd{
+    margin-top: 200px;
+    max-width: 800px;
+    min-height: 400px;
+    background: rgb(245, 5, 5);
+
+}
+.jjj{
+    max-width: 500px;
+    background: rgb(5, 177, 245);
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+
+}
+@media screen and ( max-width:700px ) {
+    .jjj{
+        background: yellow;
+    }
+    
+}
+.zaq1 > .qaz{
+    float: left;
+}
+.qaz{
+    margin: 20px;
+}
+.fgf{
+    text-align: justify;
+}
+.yyy{
+    margin: 10px;
+    width: 600px;
+    height: 300px;
+    background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdnXzUv7_9A4v3b3a-p00WhjIoz90Q6YvXPQ&usqp=CAU');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.yyy{
+    float: left;
+}
+.dsd{
+    clear: both;
+}
+.ddcc{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: black;
+}
+.ddcc1{
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: absolute;
+    right:0;
+    
+}
+.l1{
+    
+    
+    position: relative;
+    margin: 10% auto;
+    width: 700px;
+    height: 550px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+ .l1 > .p1{
+     
+    width: 100%;
+}
+    .l1 > .p1 > img{
+        width: 100%;
+    }
+    .l2{
+        font-size: 30px;
+    }
+
+.l2{
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1.5s ease;
+}
+ .l1:hover .l2{
+    opacity: 1;
+    background: rgb(27, 154, 177, 0.3);
+}
+.garik{
+    text-indent: 24px;
+}
+.fggg{
+    width: 400px;
+    height: 600px;
+    border-radius: 200px;
+    background: blue;
+}
+.ccvvbb{
+    width: 0px;
+    height:0px ;
+    border-left: 100px solid transparent;
+    border-right: 100px solid green;
+    border-bottom: 200px solid blue;
+    border-bottom: 150px solid blue;
+}
+.vecankyun{
+    width: 0px;
+
+}
+.nn11{
+    width: 100px;
+    height: 100px;
+    border: 5px solid red;
+    background: rgb(5, 65, 245);
+    border-radius: 10px 20px 90px 150px;
+   
+}
+.zxcv{
+    font-size: 20px;
+    color: red;
+    background: skyblue;
+}
+@media screen and (min-width: 900px){
+    .zxcv{
+        background: springgreen;
+    }
+}
+.asdfg{
+    width: 300px;
+    height: 100px;
+    border: 5px solid red;
+    padding: 30px;
+    margin: 50px;
+    
+}
+.cvbnm{
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    padding: 20px;
+    overflow: scroll;
+}
+.q1111{
+    width: 500px;
+    height: 500px;
+    background: rgb(245, 5, 5);
+}
+.ggghhh{
+   max-width: 1200px;
+   
+}
+.ggghhh > .nar1{
+    float: left;
+}
+.ggghhh > .nar1 > img{
+    width: 100%;
+}

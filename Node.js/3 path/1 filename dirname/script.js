@@ -1,0 +1,5 @@
+let path = require('path')
+//let fileName = path.basename(__filename)
+console.log(__filename)
+//let abs = path.isAbsolute(__dirname)
+console.log(__dirname)

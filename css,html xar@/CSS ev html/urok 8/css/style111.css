@@ -1,0 +1,37 @@
+.a1{
+    width: 200px;
+    height: 200px;
+    background: red;
+    opacity: 1;
+    display: inline-block;
+    margin: 20px 5px 5px 5px;
+
+}
+.a2{
+    width: 200px;
+    height: 200px;
+    background: red;
+    opacity: 0.3;
+    display: inline-block;
+    margin: 300px;
+}
+.nkar{
+    width: 800px;
+    height: 800px;
+}
+.nkar >img{
+    width: 100%;
+    opacity: 0.5;
+    transition: 3s;
+}
+.nkar:hover >img{
+    opacity: 1;
+}
+.aq1{
+    color: red;
+   
+    transition: 3s;
+}
+.aq1:hover{
+    color: cyan;
+}

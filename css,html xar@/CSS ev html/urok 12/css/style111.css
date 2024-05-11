@@ -1,0 +1,36 @@
+.a1{
+    padding: 30px;
+    background: black;
+    color: blanchedalmond;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#a2{
+    background: yellow;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and ( max-width: 580px){
+    .a1{
+        background:red;
+    }
+    #a2{
+        background: springgreen;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+}
+#aq1{
+    display: none;
+    background: turquoise;
+    color: black;
+    font-weight: bold;font-size: 40px;
+}
+@media screen and (min-width:300px) and (max-width: 600px){
+    #aq1{
+        display: block;
+        background: chartreuse;
+    }
+}

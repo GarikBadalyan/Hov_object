@@ -1,0 +1,114 @@
+#anim{
+    padding: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+   /* animation:coloranun 1.5s infinite alternate ;*/
+}
+@keyframes coloranun{
+    From{
+     color: blue;
+     font-size: 40px;
+     transform:rotate(40deg)
+    }
+    to{
+    color: yellow;
+    }
+}
+.a1{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-image: url('nkar/menq.jpg');
+    background-size: cover;
+    margin:350px;
+    animation:shrjan 10s infinite;
+    border:5px solid black;
+}
+@keyframes shrjan{
+    from{
+     transform: rotate(0deg);
+    }
+    to{transform: rotate(360deg);
+
+    }
+}
+.a2{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 100px;
+    background: red;
+    border: 8px solid black;
+    animation:gic 1.3s infinite alternate ;
+}
+@keyframes gic{
+    0%{
+        transform: rotate(36deg);
+        margin-left: 20px;
+        background: chartreuse;
+    }
+    10%{
+        transform: rotate(72deg);
+        margin-left: 100px;
+        background: crimson;
+    }
+        20%{
+            transform: rotate(108deg);
+            margin-left: 180px;
+            background: darkturquoise;
+        }
+            30%{
+                transform:rotate(144deg);
+                margin-left: 260px;
+                background: deeppink;
+            }    
+            40%{
+                    transform: rotate(180deg); 
+                    margin-left: 320px;
+                    background: indigo;
+                }
+                50%{
+                    transform: rotate(216deg);
+                    margin-left: 400px;
+                    background: mediumblue;
+                }
+                60%{
+                    transform: rotate(252deg);
+                    margin-left: 480px;
+                    background: mediumorchid;
+                }
+                70%{
+                    transform: rotate(288deg);
+                    margin-left: 560px;
+                    background: yellow;
+                }
+                80%{
+                    transform: rotate(324deg);
+                    margin-left: 640px;
+                    background: steelblue;
+                }
+                90%{
+                    transform: rotate(360deg);
+                    margin-left: 720px;
+                    background: orange;
+                }
+                100%{
+                    transform: rotate(72deg);
+                    margin-left: 800px;
+                    background: paleturquoise;
+                }
+
+            
+        
+    
+}
+.a3{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px;
+    animation: backInDown 1s infinite alternate;
+}

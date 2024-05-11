@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wraper {
+  max-width: 1200px; /*kareli e grel naev max-width 100 % */
+  margin: 5px auto;
+  height: 100%;
+
+  overflow: hidden;
+}
+.profit {
+  background: black;
+  padding: 15px;
+}
+.row {
+  border: 3px solid yellow;
+  max-width: 100%;
+  min-height: 640px;
+
+  /* margin: 0 -15px;   ( minusovoy margin@ dzax ev aj koxmi dexin gcer@ kkorcni) */
+}
+.wraper .row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.subtitle {
+  color: rgb(236, 13, 225);
+  font-size: 25px;
+}
+.text {
+  color: rgb(248, 3, 3);
+}
+.item {
+  margin: 3px 35px;
+  text-align: center;
+  flex-basis: 200px;
+  background: cyan;
+  max-height: 500px;
+}
+/*
+.item111{
+  flex-grow: 1;
+}*/

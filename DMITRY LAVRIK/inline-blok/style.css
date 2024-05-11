@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row .col {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 15px;
+
+  min-height: 50px;
+  width: calc(100% / 6 - 30px);
+  background: chartreuse;
+}
+@media screen and (max-width: 992px) {
+  .row{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .row .col {
+    width: calc(100% / 12 * 5 - 30px);
+  }
+}
